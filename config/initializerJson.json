@@ -1,0 +1,22 @@
+[
+  {
+    "httpRequest": {
+      "path": "/test",
+      "method": "GET"
+    },
+    "httpResponse": {
+      "body": "{}",
+      "statusCode": 200
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/failed",
+      "method": "GET"
+    },
+    "httpResponse": {
+      "body": "{}",
+      "statusCode": 500
+    }
+  }
+]
